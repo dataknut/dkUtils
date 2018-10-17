@@ -6,6 +6,7 @@
 #' @param r_dateTime the column in the dt which is a date that lubridate::month() will work on
 #'
 #' @author Ben Anderson, \email{b.anderson@@soton.ac.uk}
+#' @import lubridate
 #' @export
 #'
 addNZSeason <- function(dt,r_dateTime = r_dateTime){

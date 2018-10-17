@@ -12,7 +12,7 @@
 #'   https://stackoverflow.com/questions/5595512/what-is-the-difference-between-require-and-library
 #' @param ... A list of packages
 #' @param repo The repository to load functions from. Defaults to "https://cran.rstudio.com"
-#' @importFrom  utils install.packages
+#' @import install.packages
 #'
 #' @author Luke Blunden, \email{lsb@@soton.ac.uk} (original)
 #' @author Michael Harper \email{m.harper@@soton.ac.uk} (revised version)
