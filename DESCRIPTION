@@ -1,6 +1,6 @@
 Package: dkUtils
-Title: A bunk of usueful little functions
-Version: 0.0.0.9000
+Title: A bunch of useful little functions
+Version: 0.1recurring
 Authors@R: 
     person(given = "Ben",
            family = "Anderson",
