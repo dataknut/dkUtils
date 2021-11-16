@@ -4,6 +4,7 @@
 #'  making them suitable for printing within R Markdown reports and inline text.
 #'
 #' @param number an input number or list
+#' @param round rounding (as in round())
 #'
 #' @examples
 #' tidyNum(123456789)
@@ -14,6 +15,8 @@
 #' @export
 #' @family Utilities
 
-tidyNum <- function(number) {
-  format(number, big.mark=",", scientific=FALSE)
+tidyNum <- function(number, round) {
+  n <- round(number, eval(round))
+  nf <- format(n, big.mark=",", scientific=FALSE)
+  return(nf)
 }
