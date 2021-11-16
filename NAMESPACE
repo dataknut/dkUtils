@@ -2,6 +2,7 @@
 
 export(addNZSeason)
 export(deMacron)
+export(equivalise)
 export(findParentDirectory)
 export(getDuration)
 export(getLinuxMemProfile)

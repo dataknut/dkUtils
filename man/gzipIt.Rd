@@ -13,8 +13,11 @@ gzipIt(file)
 \code{gzipIt} gzips a file, over-writing automatically.
 }
 \seealso{
-Other Utilities: \code{\link{deMacron}},
-  \code{\link{getLinuxMemProfile}}, \code{\link{tidyNum}}
+Other Utilities: 
+\code{\link{deMacron}()},
+\code{\link{equivalise}()},
+\code{\link{getLinuxMemProfile}()},
+\code{\link{tidyNum}()}
 }
 \author{
 Michael Harper

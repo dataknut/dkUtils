@@ -10,8 +10,11 @@ getLinuxMemProfile()
 Report current hardware profile - only works on Linux (not Mac OS X etc)
 }
 \seealso{
-Other Utilities: \code{\link{deMacron}},
-  \code{\link{gzipIt}}, \code{\link{tidyNum}}
+Other Utilities: 
+\code{\link{deMacron}()},
+\code{\link{equivalise}()},
+\code{\link{gzipIt}()},
+\code{\link{tidyNum}()}
 }
 \author{
 Ben Anderson, \email{banderson@soton.ac.uk}

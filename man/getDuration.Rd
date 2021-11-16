@@ -14,9 +14,9 @@ getDuration(t)
 }
 \details{
 startTime <- proc.time()
-   .....
-   endTime <- proc.time()
-   t <- endTime - startTime
+.....
+endTime <- proc.time()
+t <- endTime - startTime
 
 and returns a formrated extraction of seconds & minutes for use in feedback.
 }

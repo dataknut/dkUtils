@@ -7,9 +7,9 @@
 #' @param round rounding (as in round())
 #'
 #' @examples
-#' tidyNum(123456789)
-#' tidyNum(10^6)
-#' tidyNum(c(10^6, 10^7, 10^8))
+#' tidyNum(123456789,0)
+#' tidyNum(10^6,0)
+#' tidyNum(c(10^6, 10^7, 10^8),2)
 #'
 #' @author Ben Anderson, \email{banderson@@soton.ac.uk}
 #' @export

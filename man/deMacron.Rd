@@ -16,8 +16,11 @@ strings such as hashtags where users might mix them but we want kakī == kaki fo
 vowels are common in Māori - see https://kupu.maori.nz/about/macrons-keyboard-setup
 }
 \seealso{
-Other Utilities: \code{\link{getLinuxMemProfile}},
-  \code{\link{gzipIt}}, \code{\link{tidyNum}}
+Other Utilities: 
+\code{\link{equivalise}()},
+\code{\link{getLinuxMemProfile}()},
+\code{\link{gzipIt}()},
+\code{\link{tidyNum}()}
 }
 \author{
 Ben Anderson, \email{banderson@soton.ac.uk}

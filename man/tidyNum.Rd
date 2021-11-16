@@ -4,24 +4,29 @@
 \alias{tidyNum}
 \title{Tidy long numbers}
 \usage{
-tidyNum(number)
+tidyNum(number, round)
 }
 \arguments{
 \item{number}{an input number or list}
+
+\item{round}{rounding (as in round())}
 }
 \description{
 \code{tidyNum} reformats long numbers to include commas and prevents scientific formats,
- making them suitable for printing within R Markdown reports and inline text.
+making them suitable for printing within R Markdown reports and inline text.
 }
 \examples{
-tidyNum(123456789)
-tidyNum(10^6)
-tidyNum(c(10^6, 10^7, 10^8))
+tidyNum(123456789,0)
+tidyNum(10^6,0)
+tidyNum(c(10^6, 10^7, 10^8),2)
 
 }
 \seealso{
-Other Utilities: \code{\link{deMacron}},
-  \code{\link{getLinuxMemProfile}}, \code{\link{gzipIt}}
+Other Utilities: 
+\code{\link{deMacron}()},
+\code{\link{equivalise}()},
+\code{\link{getLinuxMemProfile}()},
+\code{\link{gzipIt}()}
 }
 \author{
 Ben Anderson, \email{banderson@soton.ac.uk}

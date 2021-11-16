@@ -12,7 +12,7 @@ Should be the root of the GitHub repository}
 }
 \description{
 Equivalent of \code{findParentDirectory}. Is useful for running a project
-  across multiple computers where the project is stored in different directories.
+across multiple computers where the project is stored in different directories.
 }
 \author{
 Mikey Harper, \email{m.harper@soton.ac.uk}
