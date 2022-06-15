@@ -4,8 +4,8 @@
 #' it according to the method specified. Equivalisation is a way to compare attributes such
 #' as income, expenditure or consumption across households of different sizes and
 #' compositions. It is based on the idea that such values do not linearly increase
-#' as .houseodl size increases and increase at different rates for different household
-#' compositions. Equivalising the values means they ca be compared across household types.
+#' as household size increases and increase at different rates for different household
+#' compositions. Equivalising the values means they can be compared across household types.
 #' For a detailed discussion and comparison of methods (not all of which are implemented
 #' here) see <https://link.springer.com/article/10.1007/s00181-020-01822-6>
 #'
