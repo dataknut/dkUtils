@@ -26,7 +26,9 @@ loadLibraries <- function(..., repo = "https://cran.rstudio.com"){
   newPackages <- packages[!(packages %in% utils::installed.packages()[,1])]
 
   # Install if required
-  if (length(newPackages)){utils::install.packages(newPackages, dependencies = TRUE)}
+  if (length(newPackages)){utils::install.packages(newPackages, 
+                                                   repos = repo, 
+                                                   dependencies = TRUE)}
 
   # Load packages
   sapply(packages, require, character.only = TRUE)
